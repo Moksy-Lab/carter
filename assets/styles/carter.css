@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.fdb-block {
+    padding: 30px 0;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-Color: #FF630E;
+    --secondary-Color: #130F40;
+    --text-Color: #000000;
+    --alert-Color: #0099ff;
+    --success-Color: #26C976;
+    --warning-Color: #F7C32E;
+    --error-Color: #F94C10;
+    --grey-Color: #53545b;
+    --black-Color: #192335;
+    --main-Background-Color: #FFFFFF;
+    --secondary-Background-Color:#191919;
+    --secondary-Font: "Montserrat", sans-serif;
+    --button-padding: 8px 16px;
+    --button-border-radius: 5px;
+    --button-font-weight: 500;
+    --heading: 35px;
+    --heading-two: 25px;
+}
+/* headere871d461930b46f7 */
+.headere871d461930b46f7 .navbar-light .navbar-nav .nav-link{
+color: var(--secondary-Color);
+}
+.headere871d461930b46f7 .navbar-light .navbar-nav .nav-link:hover{
+    color: var(--primary-Color);
+}
+.headere871d461930b46f7 .btnregister {
+    background-color: #FFC72C;
+    border-radius: var(--button-border-radius);
+    font-weight: var(--button-font-weight) !important;
+    color: var(--main-Background-Color);
+    padding: var(--button-padding);
+}
+/* bannere54caba42c027d0f */
+.bannere54caba42c027d0f{
+    padding-bottom: 4em;
+    padding-top: 1em;
+}
+.bannere54caba42c027d0f .stroke{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--primary-Color);
+}
+.bannere54caba42c027d0f p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
