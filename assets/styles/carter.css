@@ -36,7 +36,7 @@ color: var(--secondary-Color);
     color: var(--primary-Color);
 }
 .headere871d461930b46f7 .btnregister {
-    background-color: #FFC72C;
+    background-color: var(--primary-Color);
     border-radius: var(--button-border-radius);
     font-weight: var(--button-font-weight) !important;
     color: var(--main-Background-Color);
@@ -54,6 +54,42 @@ color: var(--secondary-Color);
 .bannere54caba42c027d0f p {
     font-size: 20px;
 }
+/* abouteb092de7c8df0610 */
+.abouteb092de7c8df0610{
+    padding-bottom: 4em;
+}
+.abouteb092de7c8df0610 h2{
+    font-size: var(--heading);
+}
+.abouteb092de7c8df0610 #AbOuTuS {
+    font-weight: var(--button-font-weight);
+}
+/* servicecda4f61d9a1b5853 */
+.servicecda4f61d9a1b5853{
+    padding-bottom: 4em;
+    padding-top: 1em;
+}
+.servicecda4f61d9a1b5853 .text-center {
+    margin-left: 0px;
+}
+.servicecda4f61d9a1b5853 .font-weight-bold {
+    font-weight: 500 !important;
+}
+/* productscb870d00581aabe8 */
+.productscb870d00581aabe8{
+
+}
+/* clientsc724c807cc8b8e9ab */
+.clientsc724c807cc8b8e9ab #clients .clients-wrap{
+    border-top: none;
+}
+.clientsc724c807cc8b8e9ab #clients .client-logo{
+    border-bottom: none;
+}
+/* quotec98b9fb5a898c4551 */
+.quotec98b9fb5a898c4551 .DescriptionHeading{
+    
+}
 
 
 
@@ -85,23 +121,20 @@ color: var(--secondary-Color);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* .footerb9fc05b1281e93c03 */
+.footerb9fc05b1281e93c03 .footer-top .widget-title{
+    font-size: var(--heading-two);
+}
+.footerb9fc05b1281e93c03 .small-post-item .post-date{
+    color: var(--warning-Color);
+}
+.footerb9fc05b1281e93c03 .courses-link-list li a:hover{
+    color: var(--warning-Color);
+}
+.footerb9fc05b1281e93c03 .news-letter-form input[type="submit"]{
+    background-color: var(--warning-Color);
+    color: var(--black-Color);
+}
+.footerb9fc05b1281e93c03 .copy-right-text a{
+    color: var(--warning-Color);
+}
