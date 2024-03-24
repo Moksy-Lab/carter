@@ -66,7 +66,7 @@ color: var(--secondary-Color);
 }
 /* servicecda4f61d9a1b5853 */
 .servicecda4f61d9a1b5853{
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     padding-top: 1em;
 }
 .servicecda4f61d9a1b5853 .text-center {
@@ -76,8 +76,51 @@ color: var(--secondary-Color);
     font-weight: 500 !important;
 }
 /* productscb870d00581aabe8 */
-.productscb870d00581aabe8{
+.productscb870d00581aabe8 .title{
+    font-size: var(--heading-two);
+    color: var(--black-Color);
+}
+.productscb870d00581aabe8 .card-product .img-wrap img{
+    max-height: 150px;
+    max-width: 200px;
+}
+.productscb870d00581aabe8 .label-rating{
+    color: var(--grey-Color);
+}
+.productscb870d00581aabe8 .price-new {
+    color: var(--error-Color);
+}
+.productscb870d00581aabe8 .btn-md {
+    color: var(--secondary-Background-Color);
+    background: none;
+    border: 1px solid var(--secondary-Background-Color);
+}
+/* babakd86660a7b05110db */
+.babakd86660a7b05110db{
+    padding-top: 6em;
+}
+.babakd86660a7b05110db .btn,
+.babakd86660a7b05110db .btn-primary:hover,
+.babakd86660a7b05110db .btn-primary:not(:disabled):not(.disabled):active{
+    padding: var(--button-padding);
+    border-radius: var(--button-border-radius);
+    background-color: var(--primary-Color);
+    border: none;
+}
 
+/* quotec98b9fb5a898c4551 */
+.quotec98b9fb5a898c4551 .DescriptionHeading{
+    font-size: var(--heading);
+}
+.quotec98b9fb5a898c4551 .btn-outline-primary,
+.quotec98b9fb5a898c4551 .btn-outline-primary:hover,
+.quotec98b9fb5a898c4551 .btn-outline-primary:not(:disabled):not(.disabled):active{
+    color: var(--main-Background-Color);
+    border-color: var(--primary-Color);
+    background-color: var(--primary-Color);
+}
+.quotec98b9fb5a898c4551{
+    padding-top: 4em;
 }
 /* clientsc724c807cc8b8e9ab */
 .clientsc724c807cc8b8e9ab #clients .clients-wrap{
@@ -86,41 +129,6 @@ color: var(--secondary-Color);
 .clientsc724c807cc8b8e9ab #clients .client-logo{
     border-bottom: none;
 }
-/* quotec98b9fb5a898c4551 */
-.quotec98b9fb5a898c4551 .DescriptionHeading{
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* .footerb9fc05b1281e93c03 */
 .footerb9fc05b1281e93c03 .footer-top .widget-title{
     font-size: var(--heading-two);
