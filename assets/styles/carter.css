@@ -64,20 +64,26 @@ color: var(--secondary-Color);
 .bannere54caba42c027d0f .desText{
     font-size: var(--heading);
 }
+.bannere54caba42c027d0f{
+    padding: var(--section-padding);
+}
+.bannere54caba42c027d0f .mt-5{
+    margin-top: 2rem !important;
+}
 /* abouteb092de7c8df0610 */
 .abouteb092de7c8df0610{
-    padding-bottom: 4em;
+    padding: var(--section-padding);
 }
 .abouteb092de7c8df0610 h2{
     font-size: var(--heading-large);
 }
 .abouteb092de7c8df0610 #AbOuTuS {
     font-weight: var(--button-font-weight);
+    padding: 0rem;
 }
 /* servicecda4f61d9a1b5853 */
 .servicecda4f61d9a1b5853{
-    padding-bottom: 6em;
-    padding-top: 1em;
+    padding: var(--section-padding);
 }
 .servicecda4f61d9a1b5853 .text-center {
     margin-left: 0px;
@@ -111,7 +117,7 @@ color: var(--secondary-Color);
 }
 /* babakd86660a7b05110db */
 .babakd86660a7b05110db{
-    padding-top: 6em;
+    padding: var(--section-padding);
 }
 .babakd86660a7b05110db .btn,
 .babakd86660a7b05110db .btn-primary:hover,
@@ -136,14 +142,20 @@ color: var(--secondary-Color);
     background-color: var(--primary-Color);
 }
 .quotec98b9fb5a898c4551{
-    padding-top: 4em;
+    padding: var(--section-padding);
 }
 /* clientsc724c807cc8b8e9ab */
+.clientsc724c807cc8b8e9ab{
+    padding: var(--section-padding);
+}
 .clientsc724c807cc8b8e9ab #clients .clients-wrap{
     border-top: none;
 }
 .clientsc724c807cc8b8e9ab #clients .client-logo{
     border-bottom: none;
+}
+.clientsc724c807cc8b8e9ab #clients{
+    padding: 0px;
 }
 /* .footerb9fc05b1281e93c03 */
 .footerb9fc05b1281e93c03 .footer-top .widget-title{
