@@ -166,7 +166,7 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     
-                    <a href="html/course.html">
+                    <a href="html/form.html">
                         <button class="btn font-weight-bold my-2 my-sm-0" type="submit" itemprop="action">Log In</button>
                     </a>
                     
@@ -191,9 +191,31 @@
                     src="https://builder.moksy.com/wp-content/uploads/2022/08/pexels-photo-2007647.jpeg" alt="an image"
                     itemprop="image" />
 
-                <button class="btn" itemprop="action">
+                <button class="btn" itemprop="action" data-toggle="modal" data-target="#video" data-src="https://www.youtube.com/embed/NFWSFbqL0A0">
                     <i class="fa fa-play-circle" itemprop="icon"></i>
                 </button>
+
+                <div class="modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                  
+                        
+                        <div class="modal-body">
+                  
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>        
+                          <!-- 16:9 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                  </div>
+                          
+                          
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div> 
             </div>
         </div>
         <!-- /banner ends here -->
@@ -439,7 +461,7 @@
                         </figcaption>
 
                         <div class="bottom-wrap">
-                            <a href="" class="btn btn-md  float-right" itemprop="url">
+                            <a href="html/courses.html" class="btn btn-md  float-right" itemprop="url">
                                 Join Now
                             </a>
 
@@ -488,7 +510,7 @@
                         </figcaption>
 
                         <div class="bottom-wrap">
-                            <a href="" class="btn btn-md  float-right" itemprop="url">
+                            <a href="html/courses.html" class="btn btn-md  float-right" itemprop="url">
                                 Join Now </a>
 
                             <div class="price-wrap h5">
@@ -537,7 +559,7 @@
                         </figcaption>
 
                         <div class="bottom-wrap">
-                            <a href="" class="btn btn-md  float-right" itemprop="url">
+                            <a href="html/courses.html" class="btn btn-md  float-right" itemprop="url">
                                 Join Now </a>
 
                             <div class="price-wrap h5">
@@ -600,7 +622,7 @@
                         </figcaption>
 
                         <div class="bottom-wrap">
-                            <a href="" class="btn btn-md  float-right" itemprop="url">
+                            <a href="html/courses.html" class="btn btn-md  float-right" itemprop="url">
                                 Join Now
                             </a>
 
@@ -649,7 +671,7 @@
                         </figcaption>
 
                         <div class="bottom-wrap">
-                            <a href="" class="btn btn-md  float-right" itemprop="url">
+                            <a href="html/courses.html" class="btn btn-md  float-right" itemprop="url">
                                 Join Now </a>
 
                             <div class="price-wrap h5">
@@ -698,7 +720,7 @@
                         </figcaption>
 
                         <div class="bottom-wrap">
-                            <a href="" class="btn btn-md  float-right" itemprop="url">
+                            <a href="html/courses.html" class="btn btn-md  float-right" itemprop="url">
                                 Join Now </a>
 
                             <div class="price-wrap h5">
@@ -740,9 +762,28 @@
                             <input type="text" class="form-control" placeholder="enter your email address"
                                 aria-label="Recipient's username" aria-describedby="basic-addon2" itemprop="input">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-primary" type="button">
+                                <button class="btn btn-outline-primary" type="button" data-toggle="modal" data-target="#emailSend">
                                     Start Free Trial 📨
                                 </button>
+
+                                <div class="modal fade" id="emailSend" tabindex="-1" role="dialog" aria-labelledby="emailSendTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">This is a dummy message. Your mail has been sent</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn text-dark" data-dismiss="modal">OK</button>
+                                         
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
                             </div>
                         </div>
 
@@ -895,7 +936,7 @@
                                     <li class="li-custom-class">
                                         <div class="small-post-item">
                                             <a href="" class="post-date" itemprop="url">
-                                                July 18, 2018 </a>
+                                                May 18, 2024 </a>
                                             <h6 class="small-post-title">
                                                 <a href="" itemprop="url">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -907,7 +948,7 @@
                                     <li class="li-custom-class">
                                         <div class="small-post-item">
                                             <a href="" class="post-date" itemprop="url">
-                                                July 18, 2018 </a>
+                                                May 18, 2024 </a>
                                             <h6 class="small-post-title">
                                                 <a href="" itemprop="url">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
@@ -933,7 +974,7 @@
                                     <form class="news-letter-form">
                                         <input type="email" name="news-email" id="news-email" class="input-custom-class"
                                             placeholder="enter your email address" itemprop="input">
-                                        <input class="input-custom-class" type="submit" value="Send" itemprop="input">
+                                        <input class="input-custom-class" type="submit" value="Send" itemprop="input" data-toggle="modal" data-target="#emailSend">
                                     </form>
                                 </div>
 
@@ -958,7 +999,7 @@
                         <div class="col-md-6 col-sm-6 text-sm-left text-center">
                             <span class="copy-right-text" itemprop="text">
                                 <a itemprop="url">
-                                    Moksy.com </a>
+                                    carter </a>
                                 © 2020 All rights reserved </span>
                         </div>
 
