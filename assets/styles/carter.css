@@ -163,3 +163,16 @@ color: var(--secondary-Color);
     padding-top: 40px;
     padding-bottom: 50px;
 }
+.footerb9fc05b1281e93c03 .email-btn{
+    background-color: var(--primary-Color);
+    color: var(--text-Color);
+    width: auto;
+    border: none;
+    padding: 9px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 10px
+}
